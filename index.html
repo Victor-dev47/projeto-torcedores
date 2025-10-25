@@ -3,25 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário Torcida Organizada</title>
+    <title>Cadastro Torcida Organizada</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="Container">
-        <h1>Cadastro de Torcida organizada</h1>
-        <p>Preencha todos os campos</p>
+        <h1>Cadastro Torcida organizada</h1>
+        <p>Dados do Torcedor</p>
 
         <form id="Cadastro" action="#" method="post">
 
         
-        <label type="text">Nome completo</label> 
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        <label type="text">Nome completo:</label><br><br> 
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br><br>
          
-        <label for="CPF">CPF:</label>
-        <input type="text" name="CPF" id="CPF" placeholder="000.000.000-00" required> 
+        <label for="CPF">CPF:</label><br><br>
+        <input type="text" name="CPF" id="CPF" placeholder="000.000.000-00" required><br><br> 
 
-         <label for="time"></label>
-         <select name="time" id="time">
-          <option value="">Time do Coração</option> 
+            
+            <div class="radio-group frequencia">
+                <label for="frequencia">Quantas vezes você vai ao estadio no ano ?</label><br><br>
+
+
+            <label><input type="radio" name="opcao1" value="Raramente">Raramente</label><br>
+            <label><input type="radio" name="opcao1" value="Pouco">Pouco</label><br>
+            <label><input type="radio" name="opcao1" value="Muito">Muito</label><br>
+            <label><input type="radio" name="opcao1" value="Frequentemente">Frequentemente</label><br><br>
+            </div>
+
+                
+            <label class="checkbox">
+
+                <input type="checkbox" name="socio" required>Sou Sócio Torcedor</label><br><br>
+
+            
+            <label class="checkbox">
+
+                <input type="checkbox" name="camisa" required>Possuo Camisa Oficial</label><br><br>
+
+
+            <label for="time">Time do Coração:</label><br><br>
+            <select name="time" id="time" required>
+
+          <option value="">Selecione...</option> 
           
           <option value="1">Palmeiras SP</option>
           <option value="2">Flamengo</option>
@@ -35,7 +60,7 @@
           <option value="10">Red Bull Bragantino SP</option>
           <option value="11">Corinthians </option>
           <option value="12">Gremio</option>
-          <option value="13">ceará </option>
+          <option value="13">Ceará </option>
           <option value="14">Internacional </option>
           <option value="15">Atletico Mineiro MG</option>
           <option value="16">Santos</option>
@@ -43,72 +68,23 @@
           <option value="18">EC juventude RS </option>
           <option value="19">Fortaleza CE </option>
           <option value="20">Recife </option>
-          </select>
+          </select><br><br> 
 
-          <label for="camisa">Possui a Camisa Oficial ?</label>
+            <button type="submit">Enviar Cadastro</button>
 
-          <div class="radio-group">
-            <label><input type="radio" name="opcao " value="sim">SIM</label>
-            <label><input type="radio" name="opcao " value="nao">NÃO</label>
+            <button type="reset">Limpar</button>
 
-          </div>
-
-          <label for="frequencia">Quantas vezes voce vai ao estadio ao ano ?</label>
-          <select name="frequencia" id="frequencia" required>
-
-            <option value="1">1 - 5 </option>
-            <option value="2">5 - 10 </option>
-            <option value="3">Todos Os Jogos</option>
-
-          </select>
-
-          <label for="socio">Socio torcedor</label>
-          <div class="radio-group socio">
-            <label><input type="radio" name="opcao" value="sim">Sim</label>
-
-
-
-
-
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       
-          
-
-
-
-
-
-
-      
-
-        
 
 
          </form>
 
     </div>
 </body>
+
+<footer>
+
+    
+<p>© 2025 Developed By. Victor e Luiz.</p>
+</footer>
+
 </html>

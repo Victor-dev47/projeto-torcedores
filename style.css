@@ -1,0 +1,9 @@
+body{
+    background-image: url('https://giphy.com/gifs/cYWZAIhRC3t0wMix6h/giphy.gif');
+    text-align: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: aqua
+    color(srgb red green blue);
+    height: 100px;
+}
