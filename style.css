@@ -1,9 +1,10 @@
 body{
-    background-image: url('https://giphy.com/gifs/cYWZAIhRC3t0wMix6h/giphy.gif');
     text-align: center;
-    background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: aqua
-    color(srgb red green blue);
-    height: 100px;
-}
+  width: 70px;
+  height: 70px;
+  background-image: url('thumbbig-1387524.JPG.png');
+  background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+
+
+}   
