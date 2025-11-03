@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Torcida Organizada</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Cadastro Torcida organizada</h1>
+        <p>Dados do Torcedor</p>
+
+        <form id="Cadastro" action="#" method="post">
+
+        
+        <label type="text">Nome completo:</label><br><br> 
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br><br>
+         
+        <label for="CPF">CPF:</label><br><br>
+        <input type="text" name="CPF" id="CPF" placeholder="000.000.000-00" required><br><br> 
+
+            
+            <div class="radio-group frequencia">
+                <label for="frequencia">Quantas vezes você vai ao estadio no ano ?</label><br><br>
+
+
+            <label><input type="radio" name="opcao1" value="Raramente">Raramente</label><br>
+            <label><input type="radio" name="opcao1" value="Pouco">Pouco</label><br>
+            <label><input type="radio" name="opcao1" value="Muito">Muito</label><br>
+            <label><input type="radio" name="opcao1" value="Frequentemente">Frequentemente</label><br><br>
+            </div>
+
+                
+            <label class="checkbox">
+
+                <input type="checkbox" name="socio" required>Sou Sócio Torcedor</label><br><br>
+
+            
+            <label class="checkbox">
+
+                <input type="checkbox" name="camisa" required>Possuo Camisa Oficial</label><br><br>
+
+
+            <label for="time">Time do Coração:</label><br><br>
+            <select name="time" id="time" required>
+
+          <option value="">Selecione...</option> 
+          
+          <option value="1">Palmeiras SP</option>
+          <option value="2">Flamengo</option>
+          <option value="3">Cruzeiro</option>
+          <option value="4">Mirassol</option>  
+          <option value="5">Bahia</option>
+          <option value="6">Botafogo FR RJ</option>
+          <option value="7">Fluminense RJ</option>
+          <option value="8">Vasco da Gama</option>
+          <option value="9">São Paulo</option>
+          <option value="10">Red Bull Bragantino SP</option>
+          <option value="11">Corinthians </option>
+          <option value="12">Gremio</option>
+          <option value="13">Ceará </option>
+          <option value="14">Internacional </option>
+          <option value="15">Atletico Mineiro MG</option>
+          <option value="16">Santos</option>
+          <option value="17">EC Vitória BA</option>
+          <option value="18">EC juventude RS </option>
+          <option value="19">Fortaleza CE </option>
+          <option value="20">Recife </option>
+          </select><br><br> 
+
+            <button type="submit">Enviar Cadastro</button>
+
+            <button type="reset">Limpar</button>
+
+
+
+         </form>
+
+    </div>
+</body>
+
+<footer>
+
+    
+<p>© 2025 Developed By. Victor e Luiz.</p>
+</footer>
+
+</html>
