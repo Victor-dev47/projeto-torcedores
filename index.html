@@ -12,7 +12,7 @@
         <h1>Cadastro Torcida organizada</h1>
         <p>Dados do Torcedor</p>
 
-        <form id="Cadastro" action="#" method="post">
+        <form id="Cadastro" action="./pages/enviarTorcedorAction.php" method="post">
 
         
         <label type="text">Nome completo:</label><br><br> 
@@ -26,21 +26,21 @@
                 <label for="frequencia">Quantas vezes você vai ao estadio no ano ?</label><br><br>
 
 
-            <label><input type="radio" name="opcao1" value="Raramente">Raramente</label><br>
-            <label><input type="radio" name="opcao1" value="Pouco">Pouco</label><br>
-            <label><input type="radio" name="opcao1" value="Muito">Muito</label><br>
-            <label><input type="radio" name="opcao1" value="Frequentemente">Frequentemente</label><br><br>
+            <label><input type="radio" name="frequencia" value="Raramente">Raramente</label><br>
+            <label><input type="radio" name="frequencia" value="Pouco">Pouco</label><br>
+            <label><input type="radio" name="frequencia" value="Muito">Muito</label><br>
+            <label><input type="radio" name="frequencia" value="Frequentemente">Frequentemente</label><br><br>
             </div>
 
                 
-            <label class="checkbox">
+            <label class="checkbox">Sou Sócio Torcedor</label>
 
-                <input type="checkbox" name="socio" required>Sou Sócio Torcedor</label><br><br>
+                <input type="checkbox" name="socio" > <br>
 
             
-            <label class="checkbox">
+            <label class="checkbox"> Possuo camisa oficial</label>
 
-                <input type="checkbox" name="camisa" required>Possuo Camisa Oficial</label><br><br>
+                <input type="checkbox" name="camisa" > <br>
 
 
             <label for="time">Time do Coração:</label><br><br>
@@ -48,26 +48,26 @@
 
           <option value="">Selecione..</option> 
           
-          <option value="1">Palmeiras SP</option>
-          <option value="2">Flamengo</option>
-          <option value="3">Cruzeiro</option>
-          <option value="4">Mirassol</option>  
-          <option value="5">Bahia</option>
-          <option value="6">Botafogo FR RJ</option>
-          <option value="7">Fluminense RJ</option>
-          <option value="8">Vasco da Gama</option>
-          <option value="9">São Paulo</option>
-          <option value="10">Red Bull Bragantino SP</option>
-          <option value="11">Corinthians </option>
-          <option value="12">Gremio</option>
-          <option value="13">Ceará </option>
-          <option value="14">Internacional </option>
-          <option value="15">Atletico Mineiro MG</option>
-          <option value="16">Santos</option>
-          <option value="17">EC Vitória BA</option>
-          <option value="18">EC juventude RS </option>
-          <option value="19">Fortaleza CE </option>
-          <option value="20">Recife </option>
+          <option value="Palmeiras SP">Palmeiras SP</option>
+          <option value="Flamengo">Flamengo</option>
+          <option value="Cruzeiro">Cruzeiro</option>
+          <option value="Mirassol">Mirassol</option>  
+          <option value="Bahia">Bahia</option>
+          <option value="Botafogo FR RJ">Botafogo FR RJ</option>
+          <option value="Fluminense RJ">Fluminense RJ</option>
+          <option value="Vasco da Gama">Vasco da Gama</option>
+          <option value="São Paulo">São Paulo</option>
+          <option value="Red Bull Bragantino SP">Red Bull Bragantino SP</option>
+          <option value="Corinthians">Corinthians </option>
+          <option value="Gremio">Gremio</option>
+          <option value="Ceará">Ceará </option>
+          <option value="Internacional">Internacional </option>
+          <option value="letico Mineiro MG">Atletico Mineiro MG</option>
+          <option value="Santos">Santos</option>
+          <option value="EC Vitória BA">EC Vitória BA</option>
+          <option value="EC juventude RS">EC juventude RS </option>
+          <option value="Fortaleza CE">Fortaleza CE </option>
+          <option value="Recife">Recife </option>
           </select><br><br> 
 
             <button type="submit">Enviar Cadastro</button>
